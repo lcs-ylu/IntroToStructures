@@ -34,7 +34,38 @@ import Foundation
 // Begin your work here...
 
 
+    
 
+    
+//Define a squared-base pyramid
+struct squaredBasePyramid {
+    //Properties
+    var base:Double
+    var height:Double
+    
+    var volumn : Double{
+        return (width * length * height)/3
+    }
+}
+    
+//description
+var volumnDescription: String {
+    return "The volumn of the squaredBasePyramid is " + String(format: "%.1f", volumn) + " square units."
+}
+//instance
+func volumnOfSquaredBasePyramid(length: Double,width: Double,height: Double)-> Double {
+    
+    return ((width * length * height)/3)
+    
+    
+}
+
+//area
+let resultOfSquaredBasePyramid = volumnOfSquaredBasePyramid(length: 10, width: 3, height:2)
+
+//Report
+print(resultOfSquaredBasePyramid)
+ 
 /*:
  [Previous: Area Example - Rectangle](@previous) | Page 4
  */

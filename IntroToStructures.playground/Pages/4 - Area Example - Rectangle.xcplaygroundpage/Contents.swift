@@ -58,13 +58,19 @@ struct Rectangle {
 }
 
 // Create a rectangle instance
-var someRectangle = Rectangle(length: 10, width: 4)
 
+func areaOfTriangle(length: Double,width: Double)-> Double {
+    
+    return ((length * width)/2)
+    
+    
+}
 // What is the area?
-someRectangle.area
+
+let resultOfTriangle = areaOfTriangle(length: 10, width: 4)
 
 // Report on the area?
-print(someRectangle.areaDescription)
+print(resultOfTriangle)
 
 /*:
  
