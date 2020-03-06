@@ -40,7 +40,8 @@ import Foundation
 //Define a squared-base pyramid
 struct squaredBasePyramid {
     //Properties
-    var base:Double
+    var width:Double
+    var length:Double
     var height:Double
     
     var volumn : Double{
@@ -50,7 +51,7 @@ struct squaredBasePyramid {
     
 //description
 var volumnDescription: String {
-    return "The volumn of the squaredBasePyramid is " + String(format: "%.1f", volumn) + " square units."
+    return "The volumn of the squaredBasePyramid is " + String(format: "%.1f", volumnDescription) + " square units."
 }
 //instance
 func volumnOfSquaredBasePyramid(length: Double,width: Double,height: Double)-> Double {
