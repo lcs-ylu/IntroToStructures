@@ -72,7 +72,8 @@ let resultOfTriangle = areaOfTriangle(length: 10, width: 4)
 // Report on the area?
 print(resultOfTriangle)
 
-//just for commit
+//commit triangle
+
 /*:
  
  [Previous: Simplest Example](@previous) | Page 4 | [Next: Authoring Structures](@next)
